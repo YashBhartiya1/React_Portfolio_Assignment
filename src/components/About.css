@@ -1,0 +1,32 @@
+.about-container {
+  background-color: #8ec5fc;
+  background-image: linear-gradient(62deg, #8ec5fc 0%, #e0c3fc 100%);
+  opacity: 0.5;
+}
+
+.about-button {
+  background-image: linear-gradient(
+    120deg,
+    white 50%,
+    red 50%
+  ); /* Gradient background */
+  background-size: 200%; /* Double the size to allow for smooth transition */
+  background-position: left; /* Initial position of gradient */
+  padding: 6px 12px;
+  color: red;
+  border: none;
+  border-radius: 5px;
+  transition: background-position 0.5s ease-in-out, color 0.5s ease-in-out;
+}
+
+.no-scrollbar {
+  scrollbar-width: none; /* For Firefox */
+  -ms-overflow-style: none;
+}
+
+@media (max-width:768px){
+  .about-right {
+    height: 50vh; /* Ensure enough height for scrolling */
+  }
+}
+

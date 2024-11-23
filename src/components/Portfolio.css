@@ -1,0 +1,13 @@
+.box {
+  /* animation: animate 10s ease-in-out 0s infinite; */
+  animation: animate 10s linear 0s infinite running;
+}
+
+/* @keyframes animate {
+  0% {
+    transform: translateX(0%);
+  }
+  100% {
+    transform: translateX(-180%);
+  }
+} */
